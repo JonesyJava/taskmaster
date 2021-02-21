@@ -1,0 +1,27 @@
+[X] All lists and tasks are rendered on load/reload
+
+[X] Lists are displayed out in columns across the page
+
+[X] Lists can be Created
+
+[X] Lists and tasks each have a delete button
+
+[X] List creation must include a title limited to 3-15 characters
+
+[X] List creation must include a color picker or minimum 5 different colors
+
+[] Lists include a count of all tasks compared to uncompleted tasks
+
+[X] Each List must have its own Task form
+
+[] Task title/body must be between 3-50 characters
+
+[] Tasks can be marked complete, this will persist on reload
+
+[X] Forms should not submit unless the fields adhere to the requirements
+
+[X] Lists can be Deleted
+
+[X] Tasks can be Deleted (seperate from being marked complete)
+
+[] Users are prompted to confirm any delete (search window.confirm)
