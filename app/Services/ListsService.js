@@ -13,8 +13,11 @@ class ListsService{
     }
 
     delete(listId){
-        ProxyState.lists = ProxyState.lists.filter(l=> l.id != listId)
-        ProxyState.tasks = ProxyState.tasks.filter(t=> t.id != listId)
+        let close = window.confirm("Are you sure you want to delete this list? This cannot be undone...")
+        // @ts-ignore
+        if(close == true){
+            ProxyState.lists = ProxyState.lists.filter(l=> l.id != listId)
+        }
     }
 }
 

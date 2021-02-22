@@ -14,7 +14,11 @@ class TasksService{
     }
 
     delete(taskId){
-        ProxyState.tasks = ProxyState.tasks.filter(t=> t.id != taskId)
+        let close = window.confirm("Are you sure you finished the task?")
+        if(close == true){
+            ProxyState.tasks = ProxyState.tasks.filter(t=> t.id != taskId)
+        }
+
     }
 }
 

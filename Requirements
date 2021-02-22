@@ -10,18 +10,18 @@
 
 [X] List creation must include a color picker or minimum 5 different colors
 
-[] Lists include a count of all tasks compared to uncompleted tasks
+[X] Forms should not submit unless the fields adhere to the requirements
 
 [X] Each List must have its own Task form
 
-[] Task title/body must be between 3-50 characters
-
-[] Tasks can be marked complete, this will persist on reload
-
-[X] Forms should not submit unless the fields adhere to the requirements
+[X] Task title/body must be between 3-50 characters
 
 [X] Lists can be Deleted
 
 [X] Tasks can be Deleted (seperate from being marked complete)
 
-[] Users are prompted to confirm any delete (search window.confirm)
+[X] Users are prompted to confirm any delete (search window.confirm)
+
+[] Tasks can be marked complete, this will persist on reload
+
+[] Lists include a count of all tasks compared to uncompleted tasks
